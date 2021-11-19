@@ -55,5 +55,9 @@ jobs:
         MS_TOKEN_6: ${{ secrets.ZOE12002_TOKEN }} 
         CLIENT_ID_6: ${{ secrets.ZOE12002_ID }}
         CLIENT_SECRET_6: ${{ secrets.ZOE12002_SECRET }}
+        #如此类推，自己复制增加账号/应用
+        MS_TOKEN_n: ${{ secrets.MS_TOKEN_n }} 
+        CLIENT_ID_n: ${{ secrets.CLIENT_ID_n }}
+        CLIENT_SECRET_n: ${{ secrets.CLIENT_SECRET_n }}
       run: |
         python ApiOfRead.py

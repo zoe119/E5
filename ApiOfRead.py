@@ -19,9 +19,9 @@ access_token_list=['wangziyingwen']*int(app_num)
 config = {
          'api_rand': 1,
          'rounds': 3,
-         'rounds_delay': [0,60,120],
-         'api_delay': [0,2,6],
-         'app_delay': [0,30,60],
+         'rounds_delay': [1,7,20],
+         'api_delay': [1,2,6],
+         'app_delay': [1,3,15],
          }
 api_list = [
            r'https://graph.microsoft.com/v1.0/me/',
